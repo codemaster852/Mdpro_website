@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDpro</title>
+    <style>
+        header{
+            background:black;
+            padding:20px;
+            margin:10px;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+            margin:3px;
+        }
+        .coding_photo{
+            width:300px;
+            margin:10px;
+        }
+        .coding_photo:hover{
+            width:300px;
+            margin:10px;
+
+        }
+        .image-container {
+      position: relative;
+      display: inline-block;
+      width: 300px;
+      height: 200px;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .image-container .hover-text {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      color: white;
+      font-size: 1.5rem;
+      opacity: 0; /* Initially hidden */
+      transition: opacity 0.3s ease; /* Smooth transition */
+    }
+
+    .image-container:hover .hover-text {
+      opacity: 1; /* Show text on hover */
+    }
+    h2{
+        margin:10px;
+    }
+    .image-container2 {
+      position: relative;
+      display: inline-block;
+      width: 300px;
+      height: 200px;
+    }
+
+    .image-container2 img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .image-container2 .hover-text2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: darkgreen;
+      font-size: 1.5rem;
+      opacity: 0; /* Initially hidden */
+      transition: opacity 0.3s ease; /* Smooth transition */
+    }
+
+    .image-container2 :hover {
+      opacity: 1; /* Show text on hover */
+    }
+    .courses_photo{
+        margin:10px;
+    }
+    .image-container3 {
+      position: relative;
+      display: inline-block;
+      width: 300px;
+      height: 200px;
+    }
+
+    .image-container3 img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .image-container3 .hover-text3 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.5rem;
+      opacity: 0; /* Initially hidden */
+      transition: opacity 0.3s ease; /* Smooth transition */
+    }
+
+    .image-container3 :hover {
+      opacity: 1; /* Show text on hover */
+    }
+    .cyber_photo{
+        margin:10px;
+    }
+    .comment{
+        background:gray;
+        border:solid black;
+        width:300px;
+    }
+    .user{
+        border-bottom:solid black;
+    }
+    .user1 {
+      width: 100px;              /* Width of the element */
+      height: 100px;             /* Height of the element */
+      border: 5px solid black; /* Thickness and color of the border */
+      border-radius: 50%;        /* Makes the border circular */
+      display: flex;             /* Align content inside the circle */
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: #333;
+    }
+    .comment:hover{
+        width:400px;
+        height:250px
+    }
+    </style>
+</head>
+<body>
+    <center>
+        <header>
+            <a href="index.html">Homepage</a>
+            <a href="links.html">Our Links</a>
+            <a href="#1">Our services</a>
+            <a href="#2">Clients Reviews</a>
+        </header>
+    </center>
+    
+    <section class="content" id="1">
+        <center>
+            <h2>Our Services</h2>
+        </center>
+        <div class="image-container">
+            <img src="Photos/Coding.jpg" class="coding_photo">
+            <div class="hover-text">Coding</div>
+        </div>
+        <div class="image-container2">
+            <img src="Photos/Courses.jpg" class="courses_photo">
+            <div class="hover-text2">Courses</div>
+        </div>
+        <div class="image-container3">
+            <img src="Photos/cybersecurity.jpg" class="cyber_photo">
+            <div class="hover-text3">Cyber Security</div>
+        </div>
+        <div class="image-container3">
+            <img src="Photos/digital markiting.webp" class="cyber_photo">
+            <div class="hover-text3">Digital Markiting</div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+       <br><br><br><br><br>
+        <center>
+            <h2 id="2">Our Clients Reviews</h2>
+            <div class="comment">
+                <h2 class="user"><img src="Photos/user.jpg" class="user1">Omar   ⭐⭐⭐⭐⭐</h2>
+                <h2>Your services is very good .</h2>
+            </div>
+            <br>
+            <div class="comment">
+                <h2 class="user">Ahmed   ⭐⭐⭐⭐⭐</h2>
+                <h2>The service is very good with high quality . I like it very much . </h2>
+            </div>
+        </center>
+        
+        
+    </section>
+
+</body>
+</html>
